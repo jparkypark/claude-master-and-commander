@@ -1,0 +1,86 @@
+# Claude PRD Workflow
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime files
+*.log
+*.pid
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+.tmp/
+tmp/
+
+# Build outputs
+dist/
+build/
+
+# Test outputs
+test-results/
+coverage/
+
+# Local development
+local/
+.local/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# OS generated files
+.DS_Store?
+Icon?
+
+# Development test projects (don't commit test projects)
+test-projects/
+tmp-projects/
+
+# Personal notes and scratch files
+NOTES.md
+TODO.md
+scratch/

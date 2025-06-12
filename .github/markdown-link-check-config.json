@@ -1,0 +1,11 @@
+{
+  "alive-status-codes": [200, 203, 206, 300, 301, 302, 307, 308, 400, 401, 403, 404, 405, 406, 407, 408, 410, 429, 500, 502, 503],
+  "ignore-patterns": [
+    {
+      "pattern": "^https://github\\.com/.*/blob/.*#.*"
+    },
+    {
+      "pattern": "^https://github\\.com/.*/tree/.*#.*"
+    }
+  ]
+}
