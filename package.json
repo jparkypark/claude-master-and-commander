@@ -1,0 +1,50 @@
+{
+  "name": "claude-master-and-commander",
+  "version": "1.0.0",
+  "description": "A professional Product Requirements Document (PRD) driven development workflow that combines Claude Desktop Commander and Claude Taskmaster AI approaches",
+  "main": "scripts/cmc-task-generator.js",
+  "scripts": {
+    "setup": "./scripts/setup.sh",
+    "test": "echo \"Tests run via GitHub Actions\"",
+    "lint": "eslint scripts/*.js",
+    "format": "prettier --write scripts/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jparkypark/claude-master-and-commander.git"
+  },
+  "keywords": [
+    "claude",
+    "cmc",
+    "product-requirements",
+    "ai",
+    "development-workflow",
+    "project-management",
+    "task-management",
+    "ai-assistant",
+    "productivity",
+    "software-development",
+    "claude-desktop-commander",
+    "taskmaster"
+  ],
+  "author": "Joshua Park",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jparkypark/claude-master-and-commander/issues"
+  },
+  "homepage": "https://github.com/jparkypark/claude-master-and-commander#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^2.0.0"
+  },
+  "bin": {
+    "cmc-generate": "./scripts/cmc-task-generator.js"
+  }
+}
